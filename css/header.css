@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    /* background-color: red; */
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px; */
+
+    /* padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-right: 30px; */
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logo img{
+    width: 180px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    margin-left: 25px;
+}
+.links{
+    margin-right: 15px;
+}
+.links > a{
+    color: black;
+}
+.icons{
+    display: flex;
+}
+.icons > a{
+    color: blue;
+    background-color: black;
+    border-radius: 50%;
+    /*because our icons are string and we must change it to block*/
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
